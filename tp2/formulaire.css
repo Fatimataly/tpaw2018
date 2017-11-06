@@ -1,0 +1,12 @@
+#error{
+	background-color : pink ;
+	border-width : 1px ;
+	padding: 5px;
+	border-color : black;
+}
+#resultat{
+	background-color : green ;
+	border-width : 1px ;
+	padding: 5px;
+
+}
