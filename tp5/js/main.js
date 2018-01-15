@@ -87,7 +87,7 @@ window.onload = function () {
             this.cityWeatherLoading = true;
             
                 // appel AJAX avec fetch
-                fetch('http://api.openweathermap.org/data/2.5/weather?q='+_city.name+'&units=metric&lang=fr&apikey=1452c0dea179c5df823afa388ed470d9')
+                fetch('https://demo.bilelz.fr/owmap/?q='+_city.name+'&units=metric&lang=fr&appid=1452c0dea179c5df823afa388ed470d9')
                     .then(function(response)
                     {
                         return response.json();
